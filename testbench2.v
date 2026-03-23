@@ -65,7 +65,7 @@ module testbench;
         instr = 32'b00000000000000010001000000100000;
         
         #10
-        // regWrite = 1, so write content to Reg 0
+        // regWrite = 1, so write content to Reg 3
         writeReg = 5'b00011;
         writeData = 32'hDEADBEEF;
         regWrite = 1'b1;
